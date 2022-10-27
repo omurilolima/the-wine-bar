@@ -9,8 +9,19 @@
 body {
     font-family: 'Comfortaa', cursive, Helvetica;
     font-weight: 300;
+    color: #3a3a3a;
 }
 
-h1 {
+/* heading and logo*/
+
+h1, h2 {
     font-family: 'Bebas Neue';
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
 }
