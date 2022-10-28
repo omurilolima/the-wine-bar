@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
 
 * {
     margin: 0;
@@ -7,18 +7,21 @@
 }
 
 body {
-    font-family: 'Comfortaa', cursive, Helvetica;
-    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     color: #3a3a3a;
 }
 
 /* heading and logo*/
 
 h1, h2 {
-    font-family: 'Bebas Neue';
     text-transform: uppercase;
+    font-weight: 900;
     letter-spacing: 4px;
-    color: #252525;
+    font-size: 50px;
+    line-height: 0%;
+    text-align: center;
+    color: #000000;
 }
 
 #logo {
