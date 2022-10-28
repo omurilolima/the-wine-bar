@@ -46,6 +46,7 @@ h1, h2 {
 #menu, #logo {
     line-height: 75px;
     background-color: transparent;
+    text-shadow: 2px 2px #3a3a3a;
 }
 
 #menu li {
@@ -80,4 +81,25 @@ h1, h2 {
     height: 1080px;
     width: 100%;
     background: url("/assets/images/main-image.jpg") no-repeat center center;
+}
+
+#cover-text h2 {
+    font-size: 128px;
+    font-family: 'Robot', sans-serif;
+    font-weight: 900;
+    line-height: 120px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fcfaf7;
+    text-shadow: 3px 3px #3a3a3a;
+
+    width: 500px;
+    height: 300px;
+
+    left: 30%;
+    top: 30%;
+
+    margin: 0;
+    padding: 0;
+    position: absolute;
 }
