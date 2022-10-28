@@ -72,15 +72,11 @@ h1, h2 {
 
 /* Main image */
 
-#main-image-outer {
-    height: 1vh;
-    width: 100%;
-}
-
 #main-image {
     height: 1080px;
     width: 100%;
     background: url("/assets/images/main-image.jpg") no-repeat center center;
+    margin-bottom: 75px;
 }
 
 #cover-text h2 {
@@ -96,7 +92,7 @@ h1, h2 {
     width: 500px;
     height: 300px;
 
-    left: 30%;
+    left: 35%;
     top: 30%;
 
     margin: 0;
