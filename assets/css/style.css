@@ -14,14 +14,14 @@ body {
 }
 
 header {
-    width: 1440px;
+    width: 100%;
     margin: 0 auto;
     position: inherit;
 }
 
 p {
-    margin-bottom: 15px;
-    margin-left: 45px;
+    margin-bottom: 2%;
+    margin-left: 2%;
 }
 
 br {
@@ -35,7 +35,7 @@ h1, h2 {
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: 2px;
-    font-size: 2rem;
+    font-size: 2em;
     line-height: 0%;
     color: #571B22;
     margin-bottom: 37.5px;
@@ -45,8 +45,8 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 280%;
-    margin-top: 35px;
-    margin-left: 45px;
+    margin-top: 2%;
+    margin-left: 4%;
     color: #fcfaf7;
 }
 
@@ -69,8 +69,8 @@ h1, h2 {
 #menu li {
     float: right;
     list-style-type: none;
-    margin-top: 45px;
-    margin-right: 45px;
+    margin-top: 2%;
+    margin-right: 4%;
     text-transform: uppercase;
 }
 
@@ -99,7 +99,7 @@ h1, h2 {
 }
 
 #cover-text h2 {
-    font-size: 128px;
+    font-size: 8em;
     font-family: 'Robot', sans-serif;
     font-weight: 900;
     line-height: 120px;
@@ -134,7 +134,6 @@ h1, h2 {
     width: 50%;
     height: 11.2em;
     padding-top: 4%;
-    background-color: blue;
     margin: 0 auto;
     position: relative;
 }
@@ -142,13 +141,11 @@ h1, h2 {
 #left-time-and-location {
     width: 50%;
     float: left;
-    background-color: silver;
 }
 
 #right-time-and-location {
     width: 50%;
     float: right;
-    background-color: green;
 }
 
 /* footer */
@@ -159,6 +156,7 @@ footer {
 
 .social-networks {
     text-align: center;
+    margin: 2%;
 }
 
 .social-networks > li {
@@ -167,11 +165,12 @@ footer {
 
 .social-networks i {
     font-size: 3em;
-    padding: 4%;
-    color: #571B22;
+    padding: 2%;
+    color: #571B22; 
 }
 
 #author {
     text-align: center;
     padding-top: 4%;
+    display: block;
 }
