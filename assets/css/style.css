@@ -90,8 +90,8 @@ h1, h2 {
 /* Main image */
 
 #main-image {
-    height: 750px;
-    width: 1440px;
+    height: 40em;
+    width: 100%;
     background: url("/assets/images/main-image.jpg") no-repeat center center;
     background-size: cover;
     margin: 0 auto;
@@ -121,9 +121,9 @@ h1, h2 {
 
 /* about */
 #about {
-    width: 750px;
-    padding-top: 45px;
-    margin-left: 45px;
+    width: 60%;
+    padding-top: 4%;
+    margin-left: 4%;
     margin: 0 auto;
     position: relative;
 }
@@ -131,23 +131,21 @@ h1, h2 {
 /* time-and-location */
 
 #time-and-location {
-    width: 750px;
-    height: 450px;
-    margin-left: 45px;
+    width: 60%;
+    height: 11.2em;
+    padding-top: 4%;
     background-color: blue;
     margin: 0 auto;
     position: relative;
 }
 
 #left-time-and-location {
-    padding-top: 75px;
     width: 50%;
     float: left;
     background-color: silver;
 }
 
 #right-time-and-location {
-    padding-top: 75px;
     width: 50%;
     float: right;
     background-color: green;
