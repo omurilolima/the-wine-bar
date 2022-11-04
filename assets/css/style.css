@@ -182,17 +182,30 @@ h2 {
 
 /* about */
 #about {
-    padding: 4%;
+    padding: 5%;
+    margin-bottom: -2%;
     position: relative;
     background-color: #fcfaf7;
 }
 
+
+/* home-mid-image */
+#home-mid-image{
+    background: url(../images/cheerful-happy-couple-drinking-wine.jpg) no-repeat center center;
+    width: 90%;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+    background-size: cover;
+
+}
+
+
 /* time-and-location */
 
 #time-and-location {
-    padding: 4%;
+    padding: 5%;
     height: 11.2em;
-    padding-top: 4%;
     margin: 0 auto;
     position: relative;
 }
@@ -215,7 +228,6 @@ footer {
 
 .social-networks {
     text-align: center;
-    margin: 2%;
 }
 
 .social-networks > li {
