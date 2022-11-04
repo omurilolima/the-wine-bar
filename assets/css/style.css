@@ -31,22 +31,26 @@ br {
 
 /* heading and logo*/
 
-h1, h2 {
+h2 {
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: 2px;
     font-size: 2em;
     line-height: 0%;
     color: #571B22;
+    margin-bottom: 1em;
 }
 
 
 #logo {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
     float: left;
     font-size: 280%;
     margin-left: 4%;
     color: #fcfaf7;
-    padding: 1em;
+    padding: 0.4em;
 }
 
 /* navigation links*/
@@ -56,6 +60,7 @@ h1, h2 {
     letter-spacing: 2px;
     font-weight: 400;
     color: #fcfaf7;
+    margin-right: 4%;
 }
 
 #menu, #logo {
@@ -68,7 +73,6 @@ h1, h2 {
     float: right;
     text-transform: uppercase;
     list-style-type: none;
-    margin-right: 4%;
     padding: 1.6em;
 }
 
