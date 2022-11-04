@@ -38,16 +38,15 @@ h1, h2 {
     font-size: 2em;
     line-height: 0%;
     color: #571B22;
-    margin-bottom: 37.5px;
 }
 
 
 #logo {
     float: left;
     font-size: 280%;
-    margin-top: 1%;
     margin-left: 4%;
     color: #fcfaf7;
+    padding: 1em;
 }
 
 /* navigation links*/
@@ -60,7 +59,6 @@ h1, h2 {
 }
 
 #menu, #logo {
-    line-height: 37.5px;
     background-color: transparent;
     text-shadow: 2px 2px #3a3a3a;
     position: relative;
@@ -68,10 +66,10 @@ h1, h2 {
 
 #menu li {
     float: right;
-    list-style-type: none;
-    margin-top: 1%;
-    margin-right: 4%;
     text-transform: uppercase;
+    list-style-type: none;
+    margin-right: 4%;
+    padding: 1.6em;
 }
 
 #menu a {
