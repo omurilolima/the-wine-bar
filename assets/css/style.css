@@ -21,7 +21,6 @@ h2 {
 
 p {
     margin-bottom: 2%;
-    margin-left: 2%;
     font-size: 150%;
 }
 
@@ -105,7 +104,7 @@ header {
 #main-image {
     height: 100%;
     width: 100%;
-    background: url("../images/home-main-image.jpg") no-repeat center center;
+    background: url("../images/cheerful-happy-couple-drinking-wine.jpg") no-repeat center center;
     background-size: cover;
     margin: 0 auto;
     position: absolute;
@@ -193,23 +192,23 @@ header {
 
 
 /* home-mid-image */
-#home-mid-image{
-    background: url(../images/cheerful-happy-couple-drinking-wine.jpg) no-repeat center center;
+/* #home-mid-image{
+    background: url(../images/home-main-image.jpg) no-repeat center center;
     width: 90%;
-    height: 300px;
+    height: 75em;
     margin: 0 auto;
     position: relative;
     background-size: cover;
 
-}
+} */
 
 
 /* time-and-location */
 
 #time-and-location {
-    padding: 5%;
-    height: 11.2em;
+    width: 50%;
     margin: 0 auto;
+    height: 11.2em;
     position: relative;
 }
 
