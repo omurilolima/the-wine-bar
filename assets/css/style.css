@@ -114,10 +114,10 @@ h2 {
     font-family: 'Robot', sans-serif;
     text-align: center;
     text-transform: uppercase;
-    background-color: blue;
+    background-color: rgba(69, 69, 76, .7);
 
     width: 500px;
-    height: 250px;
+    height: 300px;
     top: 25%;
 
     margin: 0 auto;
@@ -126,23 +126,40 @@ h2 {
 }
 
 #cover-text h2 {
-    background-color: pink;
+    color: white;
+    text-shadow: 2px 2px #3a3a3a;
+    font-size: 2.5em;
     font-weight: 900;
     line-height: 45px;
     padding: 1em 0;
+    margin-bottom: 0;
 }
 
 #cover-text h3 {
-    font-size: 120%;
+    color: white;
+    font-size: 1.5em;
     font-weight: 400;
     line-height: 1;
-    padding-bottom: 1rem;
 }
 
 #cover-text a {
+    color: white;
     background-color: green;
-    font-weight: 400;
+    font-size: 1em;
+    font-weight: 900;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0.15rem 0.15rem white;
 }
+
+#cover-text a:hover {
+    color: green;
+    background-color: white;
+    box-shadow: 0.15rem 0.15rem green
+}
+
 
 /* about */
 #about {
