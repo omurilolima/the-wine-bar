@@ -110,25 +110,38 @@ h2 {
     z-index: 1;
 }
 
-#cover-text h2 {
-    font-size: 8em;
+#cover-text {
     font-family: 'Robot', sans-serif;
-    font-weight: 900;
-    line-height: 120px;
     text-align: center;
     text-transform: uppercase;
-    color: #fcfaf7;
-    text-shadow: 3px 3px #3a3a3a;
+    background-color: blue;
 
     width: 500px;
-    height: 300px;
-
-    left: 33%;
-    top: 9.84375rem;
+    height: 250px;
+    top: 25%;
 
     margin: 0 auto;
-    padding: 0;
-    position: absolute;
+    padding: 3em;
+    position: relative;
+}
+
+#cover-text h2 {
+    background-color: pink;
+    font-weight: 900;
+    line-height: 45px;
+    padding: 1em 0;
+}
+
+#cover-text h3 {
+    font-size: 120%;
+    font-weight: 400;
+    line-height: 1;
+    padding-bottom: 1rem;
+}
+
+#cover-text a {
+    background-color: green;
+    font-weight: 400;
 }
 
 /* about */
