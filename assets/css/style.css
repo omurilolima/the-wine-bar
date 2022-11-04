@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    z-index: 2;
 }
 
 body {
@@ -17,6 +18,7 @@ header {
     width: 100%;
     margin: 0 auto;
     position: inherit;
+    background-color: #fcfaf7;
 }
 
 p {
@@ -64,7 +66,7 @@ h2 {
 }
 
 #menu, #logo {
-    background-color: transparent;
+    background-color: #fcfaf7;
     text-shadow: 2px 2px #3a3a3a;
     position: relative;
 }
@@ -89,7 +91,14 @@ h2 {
     border-bottom: 1px solid #3a3a3a;
 } 
 
-/* Main image */
+/* Hero image */
+
+#hero-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
 
 #main-image {
     height: 40em;
@@ -97,8 +106,8 @@ h2 {
     background: url("../images/home-main-image.jpg") no-repeat center center;
     background-size: cover;
     margin: 0 auto;
-    position: relative;
-    overflow: hidden;
+    position: absolute;
+    z-index: 1;
 }
 
 #cover-text h2 {
@@ -129,6 +138,7 @@ h2 {
     margin-left: 4%;
     margin: 0 auto;
     position: relative;
+    background-color: #fcfaf7;
 }
 
 /* time-and-location */
