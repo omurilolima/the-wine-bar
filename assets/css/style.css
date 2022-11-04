@@ -1,24 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
 
+/* Standards parameters */
 * {
     margin: 0;
     padding: 0;
     border: none;
     z-index: 2;
+    font-size: 100%;
 }
 
-body {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    color: #3a3a3a;
-    background-color: #fcfaf7;
-}
-
-header {
-    width: 100%;
-    margin: 0 auto;
-    position: inherit;
-    background-color: #fcfaf7;
+h2 {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: 200%;
+    line-height: 0%;
+    color: #571B22;
+    margin-bottom: 1em;
 }
 
 p {
@@ -31,36 +29,39 @@ br {
     margin-left: 45px;
 }
 
-/* heading and logo*/
+/* body */
 
-h2 {
-    text-transform: uppercase;
-    font-weight: 900;
-    letter-spacing: 2px;
-    font-size: 2em;
-    line-height: 0%;
-    color: #571B22;
-    margin-bottom: 1em;
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #3a3a3a;
+    background-color: #fcfaf7;
 }
 
+/* header and logo*/
+
+header {
+    width: 100%;
+    margin: 0 auto;
+    position: inherit;
+    background-color: #fcfaf7;
+}
 
 #logo {
-    text-transform: uppercase;
+    font-size: 300%;
     font-weight: 900;
     letter-spacing: 2px;
-    float: left;
-    font-size: 280%;
-    margin-left: 4%;
     color: #fcfaf7;
+    text-transform: uppercase;
+    float: left;
+    margin-left: 4%;
     padding: 0.4em;
 }
 
-/* navigation links*/
-
 #menu {
-    font-size: 20px;
-    letter-spacing: 2px;
+    font-size: 120%;
     font-weight: 400;
+    letter-spacing: 2px;
     color: #fcfaf7;
     margin-right: 4%;
 }
@@ -94,14 +95,14 @@ h2 {
 /* Hero image */
 
 #hero-outer{
-    height: 600px;
+    height: 50em;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
 #main-image {
-    height: 40em;
+    height: 100%;
     width: 100%;
     background: url("../images/home-main-image.jpg") no-repeat center center;
     background-size: cover;
@@ -131,9 +132,9 @@ h2 {
     text-transform: uppercase;
     background-color: rgba(69, 69, 76, .7);
 
-    width: 500px;
-    height: 250px;
-    top: 25%;
+    width: 30%;
+    height: 35%;
+    top: 45%;
 
     margin: 0 auto;
     padding: 3em;
@@ -143,10 +144,10 @@ h2 {
 #cover-text h2 {
     color: white;
     text-shadow: 2px 2px #3a3a3a;
-    font-size: 2.5em;
+    font-size: 380%;
     font-weight: 900;
-    line-height: 45px;
-    padding: 1em 0;
+    line-height: 120%;
+    padding: 0.5em 0;
     margin-bottom: 0;
 }
 
@@ -160,7 +161,7 @@ h2 {
 #cover-text a {
     color: white;
     background-color: green;
-    font-size: 1em;
+    font-size: 120%;
     font-weight: 900;
     text-decoration: none;
     display: inline-block;
@@ -244,3 +245,12 @@ footer {
     text-align: center;
     margin: 0 0 1em 0;
 }
+
+/* Media queries */   
+
+/*  For screens from 1200px and down */
+/* @media only screen and (min-width 1200px) {
+    #main-content {
+        width: 80%;
+    }
+} */
