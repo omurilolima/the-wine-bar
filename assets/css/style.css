@@ -22,6 +22,7 @@ h2 {
 p {
     margin-bottom: 2%;
     margin-left: 2%;
+    font-size: 150%;
 }
 
 br {
@@ -183,8 +184,9 @@ header {
 
 /* about */
 #about {
+    width: 50%;
+    margin: 0 auto;
     padding: 5%;
-    margin-bottom: -2%;
     position: relative;
     background-color: #fcfaf7;
 }
