@@ -15,7 +15,7 @@ h2 {
     letter-spacing: 2px;
     font-size: 200%;
     line-height: 0%;
-    color: #571B22;
+    color: var(--black);
     margin-bottom: 1em;
 }
 
@@ -29,13 +29,20 @@ br {
     margin-left: 45px;
 }
 
+/* Color scheme */
+:root {
+    --white: #fcfaf7;
+    --black: #3a3a3a;
+    --third-color: #571B22;
+}
+
 /* body */
 
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    color: #3a3a3a;
-    background-color: #fcfaf7;
+    color: var(--black);
+    background-color: var(--white);
 }
 
 /* header and logo*/
@@ -44,14 +51,13 @@ header {
     width: 100%;
     margin: 0 auto;
     position: inherit;
-    background-color: #fcfaf7;
 }
 
 #logo {
     font-size: 300%;
     font-weight: 900;
     letter-spacing: 2px;
-    color: #fcfaf7;
+    color: var(--third-color);
     text-transform: uppercase;
     float: left;
     margin-left: 4%;
@@ -62,13 +68,13 @@ header {
     font-size: 120%;
     font-weight: 400;
     letter-spacing: 2px;
-    color: #fcfaf7;
+    color: var(--white);
     margin-right: 4%;
 }
 
 #menu, #logo {
-    background-color: #fcfaf7;
-    text-shadow: 2px 2px #3a3a3a;
+    background-color: var(--white);
+    text-shadow: 2px 2px var(--third-color);
     position: relative;
 }
 
@@ -85,11 +91,11 @@ header {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid var(--black);
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid var(--black);
 } 
 
 /* Hero image */
@@ -142,8 +148,8 @@ header {
 }
 
 #cover-text h2 {
-    color: white;
-    text-shadow: 2px 2px #3a3a3a;
+    color: var(--white);
+    text-shadow: 2px 2px var(--black);
     font-size: 380%;
     font-weight: 900;
     line-height: 120%;
@@ -152,28 +158,28 @@ header {
 }
 
 #cover-text h3 {
-    color: white;
+    color: var(--white);
     font-size: 1.5em;
     font-weight: 400;
     line-height: 1;
 }
 
 #cover-text a {
-    color: white;
-    background-color: green;
+    color: var(--white);
+    background-color: var(--third-color);
     font-size: 120%;
     font-weight: 900;
     text-decoration: none;
     display: inline-block;
     padding: 1em;
     border-radius: 8px;
-    box-shadow: 0.15rem 0.15rem white;
+    box-shadow: 0.15rem 0.15rem var(--white);
 }
 
 #cover-text a:hover {
-    color: green;
-    background-color: white;
-    box-shadow: 0.15rem 0.15rem green
+    color: var(--third-color);
+    background-color:var(--white);
+    box-shadow: 0.15rem 0.15rem var(--third-color)
 }
 
 #main-content {
@@ -187,23 +193,8 @@ header {
     margin: 0 auto;
     padding: 5%;
     position: relative;
-    background-color: #fcfaf7;
+    background-color:var(--white);
 }
-
-
-/* home-mid-image */
-/* #home-mid-image{
-    background: url(../images/home-main-image.jpg) no-repeat center center;
-    width: 90%;
-    height: 75em;
-    margin: 0 auto;
-    position: relative;
-    background-size: cover;
-
-} */
-
-
-/* time-and-location */
 
 #time-and-location {
     width: 50%;
@@ -224,10 +215,6 @@ header {
 
 /* footer */
 
-footer {
-    height: 150px;
-}
-
 .social-networks {
     text-align: center;
 }
@@ -239,7 +226,7 @@ footer {
 .social-networks i {
     font-size: 3em;
     padding: 2%;
-    color: #571B22; 
+    color: var(--third-color); 
 }
 
 #author {
