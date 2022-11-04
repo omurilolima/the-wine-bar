@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
 
-/* Standards parameters */
+/* Default parameters */
 * {
     margin: 0;
     padding: 0;
     border: none;
     z-index: 2;
+    font-family: 'Roboto', sans-serif;
     font-size: 100%;
 }
 
@@ -39,7 +40,6 @@ br {
 /* body */
 
 body {
-    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: var(--black);
     background-color: var(--white);
@@ -133,7 +133,6 @@ header {
 }
 
 #cover-text {
-    font-family: 'Robot', sans-serif;
     text-align: center;
     text-transform: uppercase;
     background-color: rgba(69, 69, 76, .7);
