@@ -108,6 +108,21 @@ h2 {
     margin: 0 auto;
     position: absolute;
     z-index: 1;
+    /* animates zoom effect on loading page*/
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* Creates the level of zoom for hero image like Love Running website*/
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
 }
 
 #cover-text {
