@@ -396,6 +396,12 @@ input[type=text],input[type=email],select, textarea {
     float: left;
 }
 
+#wine-menu img {
+    width: 8%;
+    height: 90%;
+    padding: 2% 12% 0 12%
+}
+
 .menu-item-list .menu-item .details {
     display: flex;
     flex-direction: column;
