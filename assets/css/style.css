@@ -64,7 +64,7 @@ header {
     padding: 0.4em;
 }
 
-#menu {
+#nav {
     font-size: 120%;
     font-weight: 400;
     letter-spacing: 2px;
@@ -72,29 +72,29 @@ header {
     margin-right: 4%;
 }
 
-#menu, #logo {
+#nav, #logo {
     background-color: var(--white);
     text-shadow: 2px 2px var(--third-color);
     position: relative;
 }
 
-#menu li {
+#nav li {
     float: right;
     text-transform: uppercase;
     list-style-type: none;
     padding: 1.6em;
 }
 
-#menu a {
+#nav a {
     text-decoration: none;
     color: inherit;
 }
 
-#menu a:hover {
+#nav a:hover {
     border-bottom: 1px solid var(--black);
 }
 
-.active {
+.active{
     border-bottom: 1px solid var(--black);
 } 
 
@@ -293,14 +293,118 @@ input[type=text],input[type=email],select, textarea {
     margin: 2% 2% 2%; 
 }
 
+/* Our menu page */
 
+#menu-hero-outer{
+    /* Create the space for the menu-main-image */
+    height: 50em;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#menu-main-image {
+    /* Define a background image at */
+    height: 100%;
+    width: 100%;
+    background: url("../images/cheerful-happy-couple-drinking-wine.jpg") no-repeat center center;
+    background-size: cover;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 1;
+    /* animates zoom effect on loading page*/
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes menu-hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
+#menu-cover-text {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgba(69, 69, 76, .7);
+
+    width: 30%;
+    height: 35%;
+    top: 45%;
+
+    margin: 0 auto;
+    padding: 3em;
+    position: relative;
+}
+
+#menu-cover-text h2 {
+    color: var(--white);
+    text-shadow: 2px 2px var(--black);
+    font-size: 380%;
+    font-weight: 900;
+    line-height: 120%;
+    padding: 0.5em 0;
+    margin-bottom: 0;
+}
+
+#menu-cover-text h3 {
+    color: var(--white);
+    font-size: 1.5em;
+    font-weight: 400;
+    line-height: 1;
+}
+
+#menu-cover-text a:hover {
+    color: var(--third-color);
+    background-color:var(--white);
+    box-shadow: 0.15rem 0.15rem var(--third-color)
+}
+
+#menu-main-content {
+    width: 100%;
+}
+
+#dinning-menu, #wine-menu, #desserts-menu {
+        /* Creat a box to display "menu items" side by side */
+        margin: 4em 8em 4em 8em;
+        color: var(--white);
+        background-color: rgba(0, 0, 0, .4);
+        width: 90%;
+        height: 50em;
+        float: left;
+        border: 2px solid var(--white);
+        box-sizing: border-box;
+}
+
+.menu-item-list {
+    width: 100%;
+    float: left;
+    background-color: pink;
+}
+
+.menu-item-list .menu-item {
+    height: 15em;
+    background-color: green;
+    border: 1px solid black;
+    width: 48%;
+    margin: 1.2em;
+    list-style-type: none;
+    float: left;
+}
+
+.menu-item img {
+    width: 40%;
+    height: 40%;
+}
+
+.item-text h2{
+    background-color: green;
+    position: relative;
+}
 
 
 /* Media queries */   
-
-/*  For screens from 1200px and down */
-/* @media only screen and (min-width 1200px) {
-    #main-content {
-        width: 80%;
-    }
-} */
