@@ -242,6 +242,16 @@ header {
     overflow: hidden;
 }
 
+#form-and-map div {
+    color: var(--white);
+    background-color: rgba(0, 0, 0, .6);
+    width: 50%;
+    height: 50em;
+    float: left;
+    border: 2px solid var(--white);
+    box-sizing: border-box;
+}
+
 #form-section {
     
 }
