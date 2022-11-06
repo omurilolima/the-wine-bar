@@ -233,6 +233,23 @@ header {
     margin: 0 0 1em 0;
 }
 
+/* Contact page: Background, Contact form and How to find us */
+
+#form-and-map {
+    background: url(/assets/images/home-main-image.jpg) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+}
+
+#form-section {
+    
+}
+
+#how-to-find-us {
+    
+}
+
 /* Media queries */   
 
 /*  For screens from 1200px and down */
