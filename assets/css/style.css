@@ -244,10 +244,10 @@ header {
 
 #form-and-map div {
     /* Creat a box to display "contact us" and "how to find us" side by side */
-    margin: 4% 0% 4% 3%;
+    margin: 4em 0em 4em 10.5em;
     color: var(--white);
     background-color: rgba(0, 0, 0, .6);
-    width: 45%;
+    width: 40%;
     height: 50em;
     float: left;
     border: 2px solid var(--white);
@@ -281,14 +281,20 @@ input[type=text],input[type=email],select, textarea {
     padding: 2%;
 }
 
-.how-to-find-us {
-    
-}
-
 .submit-button + div {
     /* Delete data-lastpass-icon-root which was displaying on the left side of the submit button */
     display: none;
 }
+
+.how-to-find-us iframe {
+    /* style the google map iframe */
+    width: 95%;
+    height: 30em;
+    margin: 0.75em 1.75em 1.75em; 
+}
+
+
+
 
 /* Media queries */   
 
