@@ -331,11 +331,9 @@ input[type=text],input[type=email],select, textarea {
     text-align: center;
     text-transform: uppercase;
     background-color: rgba(69, 69, 76, .7);
-
-    width: 30%;
-    height: 35%;
-    top: 45%;
-
+    width: 20%;
+    height: 15%;
+    top: 60%;
     margin: 0 auto;
     padding: 3em;
     position: relative;
@@ -372,23 +370,19 @@ input[type=text],input[type=email],select, textarea {
         /* Creat a box to display "menu items" side by side */
         margin: 4em 8em 4em 8em;
         color: var(--white);
-        background-color: rgba(0, 0, 0, .4);
         width: 90%;
         height: 50em;
         float: left;
-        border: 2px solid var(--white);
         box-sizing: border-box;
 }
 
 .menu-item-list {
     width: 100%;
     float: left;
-    background-color: pink;
 }
 
 .menu-item-list .menu-item {
     height: 15em;
-    background-color: green;
     border: 1px solid black;
     width: 48%;
     margin: 1.2em;
@@ -397,14 +391,36 @@ input[type=text],input[type=email],select, textarea {
 }
 
 .menu-item img {
-    width: 40%;
-    height: 40%;
+    width: 33%;
+    height: 100%;
+    float: left;
 }
 
-.item-text h2{
-    background-color: green;
+.menu-item h2{
+    color: var(--third-color);
     position: relative;
+    top: 1em;
+    left: 1em;
 }
 
+.menu-item p{
+    color: var(--black);
+    position: relative;
+    top: 2em;
+    left: 1.3em;
+}
+
+.menu-item #price {
+    position: relative;
+    top: -1.5em;
+    left: 16em;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: 200%;
+    line-height: 0%;
+    color: var(--black);
+    margin-bottom: 1em;
+}
 
 /* Media queries */   
