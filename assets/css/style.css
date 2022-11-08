@@ -23,6 +23,10 @@ body {
     font-weight: 400;
     color: var(--black);
     background-color: var(--white);
+    max-width: 2560px;
+    min-width: 320px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 /* Default text */
