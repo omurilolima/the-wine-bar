@@ -185,7 +185,7 @@ header {
     box-shadow: 0.15rem 0.15rem var(--third-color)
 }
 
-#main-content {
+main {
     width: 100%;
 }
 
