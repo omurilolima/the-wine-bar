@@ -10,6 +10,22 @@
     font-size: 100%;
 }
 
+/* Color scheme */
+:root {
+    --white: #fcfaf7;
+    --black: #3a3a3a;
+    --third-color: #571B22;
+}
+
+/* body */
+
+body {
+    font-weight: 400;
+    color: var(--black);
+    background-color: var(--white);
+}
+
+/* Default text */
 h2 {
     text-transform: uppercase;
     font-weight: 900;
@@ -27,21 +43,6 @@ p {
 br {
     margin-bottom: 15px;
     margin-left: 45px;
-}
-
-/* Color scheme */
-:root {
-    --white: #fcfaf7;
-    --black: #3a3a3a;
-    --third-color: #571B22;
-}
-
-/* body */
-
-body {
-    font-weight: 400;
-    color: var(--black);
-    background-color: var(--white);
 }
 
 /* header and logo*/
