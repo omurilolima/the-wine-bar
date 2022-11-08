@@ -207,7 +207,10 @@ main {
     width: 50%;
     margin: 0 auto;
     height: 11.2em;
-    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
 }
 
 #left-time-and-location {
