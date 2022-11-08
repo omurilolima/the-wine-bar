@@ -316,6 +316,7 @@ input[type=text],input[type=email],select, textarea {
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+    background-position-x: left;
 }
 
 @keyframes menu-hero-zoom {
