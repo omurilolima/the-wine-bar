@@ -13,9 +13,9 @@
 /* Color scheme */
 :root {
     --white: #fcfaf7;
-    --black: #3a3a3a;
+    --black: #564147;
     --third-color: #722F37;
-    --highlight-color: #ff6f88;
+    --highlight-color: #F06073;
 }
 
 /* body */
@@ -146,13 +146,10 @@ header {
     text-align: center;
     text-transform: uppercase;
     background-color: rgba(69, 69, 76, .7);
-
-    width: 30%;
-    height: 35%;
+    width: 33rem;
+    height: 24rem;
     top: 45%;
-
     margin: 0 auto;
-    padding: 3em;
     position: relative;
 }
 
@@ -170,7 +167,7 @@ header {
     color: var(--white);
     font-size: 1.5em;
     font-weight: 400;
-    line-height: 1;
+    margin-bottom: 3rem;
 }
 
 .button {
@@ -242,7 +239,7 @@ footer {
 .social-networks i {
     font-size: 3em;
     padding: 2%;
-    color: var(--highlight-color); 
+    color: var(--white); 
 }
 
 #author {
@@ -265,7 +262,7 @@ footer {
 
 #form-and-map div {
     /* Creat a box to display "contact us" and "how to find us" side by side */
-    margin: 3em 0em 4em 10.5em;
+    margin: 4em 0em 4em 10.5em;
     color: var(--white);
     background-color: rgba(0, 0, 0, .6);
     width: 40%;
