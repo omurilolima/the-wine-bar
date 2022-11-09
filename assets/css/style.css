@@ -260,6 +260,9 @@ footer {
     width: 100%;
     overflow: hidden;
     min-height: 60rem;
+}
+
+.two-columns{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -384,18 +387,16 @@ input[type=text],input[type=email],select, textarea {
     box-shadow: 0.15rem 0.15rem var(--third-color)
 }
 
-#menu-main-content {
-    width: 100%;
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
-#dinning-menu, #wine-menu, #desserts-menu {
-    margin: 4em 8em 4em 8em;
-    color: var(--white);
-    width: 95%;
-    float: left;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+#dinning-menu, #wine-menu, #desserts-menu{
+    max-width: 95%;
+    margin: 4rem 0 4rem;
 }
 
 .menu-item-list {
@@ -471,6 +472,8 @@ input[type=text],input[type=email],select, textarea {
 
 /* min-width: 40em */
 
-@media (min-width: 40em){
-
+@media (max-width: 1440px){
+    #dinning-menu, #wine-menu, #desserts-menu {
+        display: block;
+    }
 }
