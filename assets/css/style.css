@@ -457,4 +457,12 @@ input[type=text],input[type=email],select, textarea {
     margin-bottom: 1em;
 }
 
+/* Page 404 */
+.container {
+    text-align: center;
+    padding: 2em 0em;
+    min-height: 58em;
+    width: 100%;
+}
+
 /* Media queries */   
