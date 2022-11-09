@@ -395,7 +395,7 @@ main {
 }
 
 #dinning-menu, #wine-menu, #desserts-menu{
-    max-width: 95%;
+    max-width: 91%;
     margin: 4rem 0 4rem;
 }
 
@@ -408,7 +408,7 @@ main {
     height: 21em;
     border: 1px solid black;
     width: 70rem;;
-    margin: 1.2em;
+    margin: 1rem;
     list-style-type: none;
     float: left;
     display: flex;
@@ -473,7 +473,52 @@ main {
 /* min-width: 40em */
 
 @media (max-width: 1440px){
-    #dinning-menu, #wine-menu, #desserts-menu {
-        display: block;
+    .menu-item-list {
+        display: flex;
+        flex-direction: column;
+    }
+    #time-and-location {
+        margin: 0 auto 4rem auto;
+    }
+}
+
+@media (max-width: 768px){
+    .menu-item-list .menu-item {
+        width: 60rem;
+    }
+
+    #time-and-location {
+        margin: 0 auto 8rem auto;
+    }
+}
+
+@media (max-width: 768px){
+/* home */
+    header {
+        height: 5rem;
+    }
+    #logo{
+        font-size: 2.5rem;
+        margin: 0;
+    }
+    #nav{
+        font-size: 1.2rem;
+        margin: 0;
+    }
+
+    #about {
+        width: 80%;
+    }
+    
+    #time-and-location {
+        margin: 0 auto 8rem auto;
+        width: 80%;
+    }
+    .social-networks {
+        margin: 2rem;
+    }
+/* our-menu */
+    .menu-item-list .menu-item {
+        width: 60rem;
     }
 }
