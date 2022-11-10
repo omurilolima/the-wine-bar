@@ -13,9 +13,9 @@
 /* Color scheme */
 :root {
     --white: #fcfaf7;
-    --black: #564147;
-    --third-color: #722F37;
-    --highlight-color: #F06073;
+    --black: #400610;
+    --third-color: #730D0D;
+    --highlight-color: #FF7A65;
 }
 
 /* body */
