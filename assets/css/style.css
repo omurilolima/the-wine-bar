@@ -252,14 +252,12 @@ footer {
     color: var(--white); 
 }
 
-/* Contact page: Background, Contact form and How to find us */
+/* Contact page: Contact form and How to find us */
 
 #form-and-map {
-    background: url(../images/bottle-of-wine-cheeses-and-traditional-sausages-on-a-wooden-background-brie-blue-cheese-gorgonzola-fuete-salami.jpg) no-repeat center center;
-    background-size: cover;
     width: 100%;
     overflow: hidden;
-    min-height: 60rem;
+    min-height: 58rem;
 }
 
 .two-columns{
