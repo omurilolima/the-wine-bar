@@ -299,7 +299,7 @@ input[type=text],input[type=email],select, textarea {
 }
 
 #form-and-map input[type=submit]{
-    margin: 2%;
+    margin: 2rem 0 0 0.5rem;
     width: 30%;
     padding: 2%;
 }
@@ -634,6 +634,10 @@ main {
         height: 45em;
         margin: 4rem 0 4rem 0;
     }
+
+    #form-and-map #form {
+        height: 43em;
+    }
 }
 
 /* Small screen up to 425px wide */
@@ -709,5 +713,19 @@ main {
     }
     #desserts-menu {
         margin: 4rem 0 4rem 0;
+    }
+    /* Contact page */
+    #form-and-map p, #form-and-map label {
+        font-size: 1rem;
+        margin: 1rem 0.5rem 1rem 0.5rem;
+    }
+
+    #form-and-map div {
+        height: 44em;
+        margin: 2rem 0 2rem 0;
+    }
+    
+    #form-and-map #form {
+        height: 38em;
     }
 }
