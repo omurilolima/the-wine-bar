@@ -496,7 +496,7 @@ main {
         width: 60rem;
     }
     #dinning-menu, #wine-menu, #desserts-menu {
-        max-width: 75%;
+        max-width: 70%;
     }
 }
 
@@ -604,7 +604,19 @@ main {
     
     /* our-menu */
     .menu-item-list .menu-item {
-        width: 60rem;
+        width: 34rem;
+        height: 100%;
+    }
+    #dinning-menu, #wine-menu, #desserts-menu {
+        max-width: 76%;
+    }
+
+    .menu-item #price{
+        font-size: 1.2rem;
+    }
+
+    #wine-menu img {
+        padding: 1rem 2.5rem 1rem 3.5rem;
     }
     
     .hide {
