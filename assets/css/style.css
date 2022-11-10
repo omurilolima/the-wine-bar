@@ -330,7 +330,7 @@ input[type=text],input[type=email],select, textarea {
     /* Define a background image at */
     height: 100%;
     width: 100%;
-    background: url("../images/cheeses-and-wine-on-a-wooden-table.jpg") no-repeat center center;
+    background: url("../images/cheeses-and-wine-on-a-wooden-table.webp") no-repeat center center;
     background-size: cover;
     margin: 0 auto;
     position: absolute;
