@@ -15,7 +15,7 @@
     --white: #fcfaf7;
     --black: #400610;
     --third-color: #730D0D;
-    --highlight-color: #FF7A65;
+    --highlight-color: ;
 }
 
 /* body */
@@ -53,7 +53,7 @@ br {
 }
 
 a {
-    color: var(--highlight-color); 
+    color: #00B3AD;
 }
 
 img {
@@ -105,11 +105,11 @@ header {
 }
 
 #nav a:hover {
-    border-bottom: 1px solid var(--highlight-color);
+    border-bottom: 1px solid var(--white);
 }
 
 .active{
-    border-bottom: 1px solid var(--highlight-color);
+    border-bottom: 1px solid var(--white);
 } 
 
 /* Hero image */
@@ -176,7 +176,7 @@ header {
 
 .button {
     color: var(--white);
-    background-color: var(--highlight-color);
+    background-color: var(--third-color);
     font-size: 120%;
     font-weight: 900;
     text-decoration: none;
@@ -509,6 +509,7 @@ main {
         align-items: center;
         justify-content: space-between;
         background-color: var(--white);
+        border-bottom: 0.1rem solid var(--third-color);
     }
 
     h2 {
@@ -572,6 +573,7 @@ main {
         padding: 0.3rem;
         font-size: 1rem;
         box-shadow: 0.1rem 0.1rem var(--white);
+        background-color: var(--third-color);
     }
     
     #about {
