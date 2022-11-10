@@ -640,6 +640,22 @@ main {
 
 @media (max-width: 426px){
     /* Our menu page */
+    #menu-hero-outer {
+        height: 18em;
+    }
+    #menu-cover-text {
+        width: 14rem;
+        height: 8.5rem;
+        padding: 1rem;
+    }
+    #menu-cover-text h2 {
+        font-size: 2rem;
+    }
+    #menu-cover-text h3 {
+        font-size: 1.2em;
+        line-height: 1.5rem;
+    }
+
     #dinning-menu, #wine-menu, #desserts-menu {
         max-width: 90%;
         margin: 4rem 0 0 0;
