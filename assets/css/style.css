@@ -53,7 +53,7 @@ br {
 }
 
 a {
-    color: #00B3AD;
+    color: var(--white);
 }
 
 img {
