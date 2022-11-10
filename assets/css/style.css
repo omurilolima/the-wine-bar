@@ -658,7 +658,14 @@ main {
 
     #dinning-menu, #wine-menu, #desserts-menu {
         max-width: 90%;
-        margin: 4rem 0 0 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1rem;
+    }
+
+    .menu-item-list {
+        display: flex;
+        flex-direction: column;
     }
 
     .menu-item-list .menu-item {
