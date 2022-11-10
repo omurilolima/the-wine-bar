@@ -503,7 +503,7 @@ main {
 /* Small screen up to 768px wide */
 
 @media (max-width: 768px){
-    /* home */
+    /* Home page */
     header {
         height: 5rem;
         display: flex;
@@ -602,7 +602,7 @@ main {
         padding: 0;
     }
     
-    /* our-menu */
+    /* Our menu page */
     .menu-item-list .menu-item {
         width: 34rem;
         height: 100%;
@@ -622,7 +622,7 @@ main {
     .hide {
         display: none;
     }
-    /* Contact and map */
+    /* Contact and map page */
     .one-column {
         display: flex;
         flex-direction: column;
@@ -632,6 +632,59 @@ main {
     #form-and-map div {
         width: 80%;
         height: 45em;
+        margin: 4rem 0 4rem 0;
+    }
+}
+
+/* Small screen up to 425px wide */
+
+@media (max-width: 426px){
+    /* Our menu page */
+    #dinning-menu, #wine-menu, #desserts-menu {
+        max-width: 90%;
+        margin: 4rem 0 0 0;
+    }
+
+    .menu-item-list .menu-item {
+        width: 16rem;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .menu-item-list .menu-item .details {
+        width: 100%;
+    }
+
+    .menu-item-list .menu-item .details p {
+        padding: 0.5rem;
+        margin: 0;
+    }
+    .menu-item-list .menu-item .details .title {
+        width: 15rem;
+    }
+
+    .menu-item-list .menu-item .details .title h2 {
+        margin: 0;
+        font-size: 1rem;
+        padding-top: 0.5rem;
+    }
+
+    .menu-item img {
+        width: 100%;
+    }
+    .menu-item #price {
+        font-size: 1rem;
+        margin: 0;
+        padding-left: 0;
+    }
+    #wine-menu img {
+        width: 2rem;
+        height: 8rem;
+        padding: 0.5rem 0;
+    }
+    #desserts-menu {
         margin: 4rem 0 4rem 0;
     }
 }
