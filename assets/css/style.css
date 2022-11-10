@@ -468,25 +468,9 @@ main {
     width: 100%;
 }
 
-/* Media queries */   
+/* Media queries */ 
 
-/* min-width: 40em */
-
-@media (max-width: 3000px){
-    .menu-item-list {
-        display: flex;
-        flex-direction: column;
-    }
-    #about {
-        width: 80%;
-    }
-    
-    #time-and-location {
-        margin: 0 auto 8rem auto;
-        width: 80%;
-    }
-}
-
+/* Medium screen up to 1440px wide */
 @media (max-width: 1440px){
     /* home */
     header {
@@ -500,11 +484,9 @@ main {
         font-size: 1.2rem;
         margin: 0;
     }
-
     #about {
         width: 80%;
     }
-    
     #time-and-location {
         margin: 0 auto 8rem auto;
         width: 80%;
@@ -515,6 +497,8 @@ main {
     }
 }
 
+/* Small screen up to 768px wide */
+
 @media (max-width: 768px){
     /* home */
     header {
@@ -523,7 +507,9 @@ main {
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
+        background-color: var(--white);
     }
+
     h2 {
         font-size: 1.2rem;
     }
@@ -531,26 +517,30 @@ main {
     p {
         font-size: 1rem;
     }
+    
     #logo{
         font-size: 1.5rem;
-        margin-left: 1rem;
+        color: var(--white);
+        background-color: var(--third-color);
+        padding: 1.6rem;
     }
+    
     #nav{
         font-size: 1rem;
         margin: 0;
         display: flex;
         flex-direction: row;
         background-color: var(--white);
-        padding: 5rem 0;
     }
+    
     #nav li {
         padding: 0 0.7rem;
     }
-
+    
     #nav a {
         color: var(--third-color);
     }
-
+    
     #hero-outer {
         height: 18rem;
         display: flex;
@@ -558,51 +548,62 @@ main {
         align-items: center;
         justify-content: center;
     }
+    
     #cover-text {
         width: 13rem;
         height: 11rem;
         top: 3rem;
     }
+    
     #cover-text h2 {
         font-size: 1.2rem;
         padding: 1rem;
         padding-bottom: 0;
     }
+    
     #cover-text h3{
         font-size: 1rem;
         padding: 1rem;
         margin: 0;
     }
+    
     #cover-text .button {
         padding: 0.3rem;
         font-size: 1rem;
         box-shadow: 0.1rem 0.1rem var(--white);
     }
+    
     #about {
         width: 80%;
         padding: 1rem;
     }
+    
     #time-and-location {
         width: 80%;
         display: flex;
         flex-direction: column;
         padding: 1rem;
     }
+    
     #left-time-and-location {
         width: 100%;
     }
+    
     #right-time-and-location {
         width: 100%;
     }
+    
     .social-networks i {
         font-size: 2em;
         margin: 2rem;
         padding: 0;
     }
+    
     /* our-menu */
     .menu-item-list .menu-item {
         width: 60rem;
     }
+    
     .hide {
         display: none;
     }
