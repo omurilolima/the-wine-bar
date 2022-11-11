@@ -160,18 +160,49 @@ Testing information can be found in separate TESTING.md file
 
 ### Validator Testing
 - HTML
-    - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fomurilolima.github.io%2Fthe-wine-bar%2Findex.html)
+    - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fomurilolima.github.io%2Fthe-wine-bar%2Findex.html).
 - CSS
-    - No errors were found when passing through the official [(Jigsaw) validator]()
+    - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fomurilolima.github.io%2Fthe-wine-bar%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
 
 ## Deployment
 
+This project was developed using the [Gitpod IDE](https://gitpod.io/), committed to git and pushed to [GitHub](https://github.com) using the built in function within cloud9.
 
+To <strong>deploy this page to GitHub Pages</strong> from its [GitHub repository](https://github.com/omurilolima/the-wine-bar), the following steps were taken:
+
+1. Log into GitHub.
+2. From the list of repositories on the screen, select AJGreaves/portrait-artist.
+3. From the menu items near the top of the page, select Settings.
+4. Scroll down to the GitHub Pages section.
+5. Under Source click the drop-down menu labelled None and select Master Branch
+6. On selecting Master Branch the page is automatically refreshed, the website is now deployed.
+7. Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
+
+The live link can be found here - https://omurilolima.github.io/the-wine-bar/index.html
+
+### How to run this project locally
+To clone this project into Gitpod you will need:
+
+1. Create a Github account at https://github.com/
+2. Use the Chrome browser
+
+Then follow these steps:
+1. Install the [Gitpod Browser Extentions for Chrome](https://www.gitpod.io/docs/browser-extension/)
+2. After installation, restart the browser
+3. Log into [Gitpod](https://gitpod.com/) with your gitpod account.
+4. Navigate to the Project GitHub repository
+5. Click the green "Gitpod" button in the top right corner of the respository
+6. This will trigger a new gitpod workspace to be created from the code in github where you can work locally.
 
 ## Credits
 
 ### Code
-- CSS tutorials: https://www.w3schools.com/howto/default.asp 
+
+In addition to the knowledge acquired in the [Professional Academy Diploma in Full Stack Software Development](https://www.ucd.ie/professionalacademy/findyourcourse/professional_diploma_in_software_development/) by [University College Dublin](https://www.ucd.ie/) and [Code Institute](https://codeinstitute.net/ie/), I also used the following sources to deal with specific points of this project:
+
+- CSS tutorials at [W3School](https://www.w3schools.com/howto/default.asp)
+- Picking a colour scheme: [Tutorial by Kevin Powell](https://www.youtube.com/watch?v=mq8LYj6kRyE)
+- Responsive Design: [Tutorial by Kevin Powell - 1](https://www.youtube.com/watch?v=VQraviuwbzU) and [Tutorial by Kevin Powell - 2](https://www.youtube.com/watch?v=2KL-z9A56SQ)
 
 ### Content
 
