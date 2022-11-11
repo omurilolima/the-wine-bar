@@ -97,6 +97,16 @@ The hero image features a photograph and a cover text that identify the business
 
 ### F03 About
 
+This section brings the story about the restaurant and its purpose. Above are the opening hours and address of the place.
+
+![About section](/documentation/about-section.png)
+
+### F04 Footer
+
+This section aims to feature social media where the restaurant has profiles, and the user can click on the icon to visit each one.
+
+![Footer](/documentation/footer.png)
+
 ### Contact
 
 ## Features to Implement in future
