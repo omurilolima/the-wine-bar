@@ -8,7 +8,7 @@ A comprehensive website for a wine specialized restaurant based in Dublin, Irela
 
 Every restaurant needs to present itself with high quality photos of its menu, besides its atmosphere and vibe. These are the main thing to catch the clients atetion and awake their desire to visit the place. This website eases the customer process to find all the info they need to decide on visiting the restaurant and having a great wine experience.
 
-![website in different screen sizes](/images-to-readme/website-in-different-screen-sizes.png)
+![website in different screen sizes](/documentation/website-in-different-screen-sizes.png)
 
 ### Business goals addressed with this site:
 
@@ -19,9 +19,9 @@ Every restaurant needs to present itself with high quality photos of its menu, b
 ### Customer needs:
 
 - Understand the proporse of The Wine Bar;
-- See the exact location of the restaurant;
-- See the oppening hours;
-- See the menu and prices;
+- View the exact location of the restaurant;
+- View the oppening hours;
+- View the menu and prices;
 - Book a table;
 - Intuitive contact process.
 
@@ -30,30 +30,43 @@ Every restaurant needs to present itself with high quality photos of its menu, b
 ### Ideal client:
 
 - English speaking;
+- Has interest about wine culture;
+- Enjoy cosy and fancy restaurants;
 
 ### Visitors to this website are searching for:
 
-- 
-- 
+- A good restaurant in Dublin to have a great meal with good wines.
 
 ### This project is the best way to help them achieve these things because:
 
-- 
-- 
+- Feature the place and menu with high-quality images to delight potential customers.
+- Delivery of all the main info through a clear and easy-to-navigate experience.
 
 ### New Customer stories:
-1. 
-2. 
+1. As a new visitor to the website, I want to view the main info about the restaurant.
+2. As a new visitor to the website, I want to view the opening hours of the restaurant.
+3. As a new visitor to the website, I want to view the location/address of the restaurant.
+4. As a new visitor to the website, I want to view the menu of the restaurant.
+5. As a new visitor to the website, I want to contact the restaurant.
 
 ### Returning Customer stories:
 
-3. 
-4.  
+6. As a returning customer to the website, I want to give feedback to the restaurant.
+7. As a returning customer to the website, I want to sign up for the mailing list and qualify for special offers.
+8. As a returning customer to the website, I want to view the restaurant's social media.
 
 ### Wireframes
-- [Home](#)
-- [Our menu](#)
-- [Contact](#)
+- <strong>Home</strong>
+
+![Wireframe Home](/documentation/wireframe-home.png)
+
+- <strong>Our menu</strong>
+
+![Wireframe Our menu](/documentation/wireframe-menu.png)
+
+- <strong>Contact</strong>
+
+![Contact](/documentation/wireframe-contact.png)
 
 ## Features
 
