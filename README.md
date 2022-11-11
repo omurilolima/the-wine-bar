@@ -151,7 +151,6 @@ The "How to find us" area features a <strong>Google Map</strong> embended to eas
 - <strong>Google fonts</strong>: https://fonts.google.com/
 - <strong>Google Drive</strong> and <strong>Notion</strong> for documenting.
 - <strong>Favicon</strong> for create a favicon: https://favicon.io/
-- <strong>Font Awesome</strong> for social media icons: https://fontawesome.com/icons 
 - <strong>Pomodoro Tracker</strong> for measure my effort: https://pomodoro-tracker.com/
 
 ## Testing
@@ -164,11 +163,14 @@ Testing information can be found in separate TESTING.md file
 - CSS
     - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fomurilolima.github.io%2Fthe-wine-bar%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
 
-### Performance and Responsiveness Testing
+### Performance, Responsiveness and Best Practices Testing
 
-- Performance
-    - <strong>Performance</strong> (99), <strong>Accessibility</strong> (100), <strong>Best Practices</strong> (92) and <strong>SEO</strong> (100) according to [Google PageSpeed Insights](https://pagespeed.web.dev/report?url=https%3A%2F%2Fomurilolima.github.io%2Fthe-wine-bar%2F&form_factor=desktop).
-
+- According to [Google PageSpeed Insights](https://pagespeed.web.dev/report?url=https%3A%2F%2Fomurilolima.github.io%2Fthe-wine-bar%2F&form_factor=desktop).
+    - <strong>Performance</strong> (99),
+    - <strong>Accessibility</strong> (100), 
+    - <strong>Best Practices</strong> (92)
+    - <strong>SEO</strong> (100) 
+- Responsiveness was also tested with [Am I responsive?](https://ui.dev/amiresponsive?url=https://omurilolima.github.io/the-wine-bar/)
 
 ## Deployment
 
@@ -209,8 +211,11 @@ In addition to the knowledge acquired in the [Professional Academy Diploma in Fu
 - CSS tutorials at [W3School](https://www.w3schools.com/howto/default.asp)
 - Picking a colour scheme: [Tutorial by Kevin Powell](https://www.youtube.com/watch?v=mq8LYj6kRyE)
 - Responsive Design: [Tutorial by Kevin Powell - 1](https://www.youtube.com/watch?v=VQraviuwbzU) and [Tutorial by Kevin Powell - 2](https://www.youtube.com/watch?v=2KL-z9A56SQ)
+- Markdown Guide: [Basic syntax](https://www.markdownguide.org/basic-syntax/) for create the README file.
 
 ### Content
+
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/icons)
 
 ### Acknowledgments
 
