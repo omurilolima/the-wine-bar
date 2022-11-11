@@ -70,9 +70,32 @@ Every restaurant needs to present itself with high quality photos of its menu, b
 
 ## Features
 
-### Home
+Each page features a responsive navigation bar on top, with the conventional placing of <strong>logo</strong> and the links to other pages.
 
-### About
+Each page has a <strong>footer</strong> with social media icons and the author section.
+
+Every page - except the contact page - features its own <strong>hero image</strong> at the top. The home page hero image section has a <strong>call to action</strong> inviting the user to the menu page.
+
+
+### F01 Navigation Bar
+
+It includes a simple Logo, Home page, Menu and Contact links and is responsive on multiple screen sizes.
+
+- <strong>Big screen</strong>
+
+![Navigation bar on big screen](/documentation/navigation-bar-big-screen.png)
+
+- <strong>Small screen</strong>
+
+![Navigation bar on small screen](/documentation/navigation-bar-small-screen.png)
+
+### F02 Hero image and call to action
+
+The hero image features a photograph and a cover text that identify the business value proposition "Best wines for amazing moments". A highlighted button is placed as an eye-catching call to action inviting the user to view the menu page.
+
+![Hero image and call to action](/documentation/hero-image-and-cta.png)
+
+### F03 About
 
 ### Contact
 
