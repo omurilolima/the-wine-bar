@@ -132,15 +132,25 @@ The "How to find us" area features a <strong>Google Map</strong> embended to eas
 
 ![Contact and Map section](/documentation/contact-and-map.png)
 
-
 ## Features to Implement in future
-- 
-- 
+- Add Google Analytics to measure the user's behaviour on the website.
+- "Book a table" page to permit customer to book a table online.
 
 ## Technologies Used
 - This project uses HTML and CSS programming languages.
-- 
-- 
+- <strong>Images</strong>: https://www.shutterstock.com/ and https://www.vivino.com/
+- <strong>Git hub<strong> for version control and host: https://github.com/omurilolima/the-wine-bar  
+- <strong>Gitpod</strong> for coding: https://gitpod.io/ 
+- <strong>W3C HTML</strong> valitadion service: https://validator.w3.org/  
+- <strong>W3C CSS</strong> valitadion service: https://jigsaw.w3.org/css-validator/  
+- <strong>Lighthouse</strong> for test site performance on desktop and mobile devices.
+- <strong>Balsamiq</strong> for create wireframes: https://balsamiq.com/ 
+- <strong>Tinypng</strong> to image optimizing: https://tinypng.com/ 
+- <strong>My Color</strong> for choosing a color pallete: https://mycolor.space/
+- <strong>Google Drive</strong> and <strong>Notion</strong> for documenting.
+- <strong>Favicon</strong> for create a favicon: https://favicon.io/ 
+- <strong>Pomodoro Tracker</strong> for measure my effort: https://pomodoro-tracker.com/
+
 
 ## Testing
 
@@ -149,6 +159,7 @@ The "How to find us" area features a <strong>Google Map</strong> embended to eas
 ## Credits
 
 ### Code
+- CSS tutorials: https://www.w3schools.com/howto/default.asp 
 
 ### Content
 
