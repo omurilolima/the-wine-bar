@@ -531,8 +531,7 @@ main {
         font-size: 1rem;
         margin: 0;
         display: flex;
-        flex-direction: row;
-        background-color: var(--white);
+        flex-direction: row;;
     }
     
     #nav li {

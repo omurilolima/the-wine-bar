@@ -135,11 +135,12 @@ The "How to find us" area features a <strong>Google Map</strong> embended to eas
 ## Features to Implement in future
 - Add Google Analytics to measure the user's behaviour on the website.
 - "Book a table" page to permit customer to book a table online.
+- Add CAPTCHA to contact form - Allows business to protect the contact form from spam.
 
 ## Technologies Used
 - This project uses HTML and CSS programming languages.
 - <strong>Images</strong>: https://www.shutterstock.com/ and https://www.vivino.com/
-- <strong>Git hub<strong> for version control and host: https://github.com/omurilolima/the-wine-bar  
+- <strong>Git hub</strong> for version control and host: https://github.com/omurilolima/the-wine-bar  
 - <strong>Gitpod</strong> for coding: https://gitpod.io/ 
 - <strong>W3C HTML</strong> valitadion service: https://validator.w3.org/  
 - <strong>W3C CSS</strong> valitadion service: https://jigsaw.w3.org/css-validator/  
@@ -147,14 +148,25 @@ The "How to find us" area features a <strong>Google Map</strong> embended to eas
 - <strong>Balsamiq</strong> for create wireframes: https://balsamiq.com/ 
 - <strong>Tinypng</strong> to image optimizing: https://tinypng.com/ 
 - <strong>My Color</strong> for choosing a color pallete: https://mycolor.space/
+- <strong>Google fonts</strong>: https://fonts.google.com/
 - <strong>Google Drive</strong> and <strong>Notion</strong> for documenting.
-- <strong>Favicon</strong> for create a favicon: https://favicon.io/ 
+- <strong>Favicon</strong> for create a favicon: https://favicon.io/
+- <strong>Font Awesome</strong> for social media icons: https://fontawesome.com/icons 
 - <strong>Pomodoro Tracker</strong> for measure my effort: https://pomodoro-tracker.com/
-
 
 ## Testing
 
+Testing information can be found in separate TESTING.md file
+
+### Validator Testing
+- HTML
+    - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fomurilolima.github.io%2Fthe-wine-bar%2Findex.html)
+- CSS
+    - No errors were found when passing through the official [(Jigsaw) validator]()
+
 ## Deployment
+
+
 
 ## Credits
 
