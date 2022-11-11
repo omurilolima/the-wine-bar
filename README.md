@@ -107,7 +107,31 @@ This section aims to feature social media where the restaurant has profiles, and
 
 ![Footer](/documentation/footer.png)
 
-### Contact
+### F05 Our menu
+
+With high-quality images, this section features the menu (dining, wines and desserts) for the user views every item with its photo, name, description and price.
+
+<strong>Wine menu large screen</strong>
+
+![wine menu large screen](/documentation/wine-menu-large-screen.png)
+
+<strong>Wine menu small screen</strong>
+
+![Wine menu small screen](/documentation/wine-menu-small-screen.png)
+
+<strong>Dining menu large screen</strong>
+
+![Dining menu large screen](/documentation/dining-menu-large-screen.png)
+
+
+### F06 Contact
+
+In the "Contact us" area, the user find a contact form in which they can send a message to restauran, give a feedback and signup for mailing list and qualify for special offers.
+
+The "How to find us" area features a <strong>Google Map</strong> embended to easy the process of view the exact location of the restaurant. Besides, there is a phone number and an e-mail.
+
+![Contact and Map section](/documentation/contact-and-map.png)
+
 
 ## Features to Implement in future
 - 
