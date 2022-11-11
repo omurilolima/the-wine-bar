@@ -158,11 +158,17 @@ The "How to find us" area features a <strong>Google Map</strong> embended to eas
 
 Testing information can be found in separate TESTING.md file
 
-### Validator Testing
+### Code Validator Testing
 - HTML
     - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fomurilolima.github.io%2Fthe-wine-bar%2Findex.html).
 - CSS
     - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fomurilolima.github.io%2Fthe-wine-bar%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
+
+### Performance and Responsiveness Testing
+
+- Performance
+    - <strong>Performance</strong> (99), <strong>Accessibility</strong> (100), <strong>Best Practices</strong> (92) and <strong>SEO</strong> (100) according to [Google PageSpeed Insights](https://pagespeed.web.dev/report?url=https%3A%2F%2Fomurilolima.github.io%2Fthe-wine-bar%2F&form_factor=desktop).
+
 
 ## Deployment
 
