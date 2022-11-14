@@ -155,7 +155,7 @@ The "How to find us" area features a <strong>Google Map</strong> embended to eas
 
 ## Testing
 
-Testing information can be found in separate TESTING.md file
+Testing information can be found in separate [TESTING.md file](/documentation/testing.md)
 
 ### Code Validator Testing
 - HTML
@@ -166,10 +166,9 @@ Testing information can be found in separate TESTING.md file
 ### Performance, Responsiveness and Best Practices Testing
 
 - According to [Google PageSpeed Insights](https://pagespeed.web.dev/report?url=https%3A%2F%2Fomurilolima.github.io%2Fthe-wine-bar%2F&form_factor=desktop).
-    - <strong>Performance</strong> (99),
-    - <strong>Accessibility</strong> (100), 
-    - <strong>Best Practices</strong> (92)
-    - <strong>SEO</strong> (100) 
+
+![Google pagespeed results](/documentation/pagespeed-results.png)
+
 - Responsiveness was also tested with [Am I responsive?](https://ui.dev/amiresponsive?url=https://omurilolima.github.io/the-wine-bar/)
 
 ## Deployment
