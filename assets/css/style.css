@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap");
 
 /* Default parameters */
 * {
@@ -6,7 +6,7 @@
     padding: 0;
     border: none;
     z-index: 2;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 100%;
 }
 
@@ -228,6 +228,7 @@ main {
 footer {
     background: var(--third-color) ; 
     padding: 10px 0px 5px 0px;
+    margin-top: 20px;
 }
 
 .social-networks {
@@ -286,6 +287,10 @@ footer {
     margin: 0% 1% 2% 2%;
 }
 
+#form-and-map #message {
+    height:100px
+}
+
 input[type=text],input[type=email],select, textarea {
     /* Style inputs with type="text", select elements and textareas */
     width: 95%;
@@ -301,6 +306,7 @@ input[type=text],input[type=email],select, textarea {
     margin: 2rem 0 0 0.5rem;
     width: 30%;
     padding: 2%;
+    display: block;
 }
 
 .submit-button + div {
@@ -494,6 +500,11 @@ main {
     }
     #dinning-menu, #wine-menu, #desserts-menu {
         max-width: 70%;
+    }
+    
+    /* contact form and map */
+    #form-and-map div {
+        height: 45em;
     }
 }
 
