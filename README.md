@@ -68,6 +68,16 @@ Every restaurant needs to present itself with high quality photos of its menu, b
 
 ![Contact](/documentation/wireframe-contact.png)
 
+### Colour Scheme
+I used [mycolor.space](https://mycolor.space/) to choose a colour scheme that would be easily readable and visually appealing to users.
+
+![Colour Scheme](/documentation/Colour%20Scheme.png)
+
+### Typography
+I used Google Fonts to select and import the fonts Roboto Black 900 for main headers and the logo and Roboto Regular 400 for body text.
+
+![Roboto Google Fonts](/documentation/roboto-google-fonts.png)
+
 ## Features
 
 Each page features a responsive navigation bar on top, with the conventional placing of <strong>logo</strong> and the links to other pages.
@@ -136,10 +146,10 @@ The "How to find us" area features a <strong>Google Map</strong> embended to eas
 - Add Google Analytics to measure the user's behaviour on the website.
 - "Book a table" page to permit customer to book a table online.
 - Add CAPTCHA to contact form - Allows business to protect the contact form from spam.
+- GDPR compliant pop-up screen - Allows all new visitors to the website to approve or deny the processing of their personal data. Ensures the business complies with the EU data protection law.
 
 ## Technologies Used
 - This project uses HTML and CSS programming languages.
-- <strong>Images</strong>: https://www.shutterstock.com/ and https://www.vivino.com/
 - <strong>Git hub</strong> for version control and host: https://github.com/omurilolima/the-wine-bar  
 - <strong>Gitpod</strong> for coding: https://gitpod.io/ 
 - <strong>W3C HTML</strong> valitadion service: https://validator.w3.org/  
@@ -199,7 +209,14 @@ Then follow these steps:
 3. Log into [Gitpod](https://gitpod.com/) with your gitpod account.
 4. Navigate to the Project GitHub repository
 5. Click the green "Gitpod" button in the top right corner of the respository
-6. This will trigger a new gitpod workspace to be created from the code in github where you can work locally.
+6. Threpositorygger a new gitpod workspace to be created from the code in github where you GitHubrk locally.
+
+### How to commit and push changes
+
+To commit and push changes you need to follow these steps:
+1. Run the "git add ." command on the terminal to add a change in the working directory to the staging area.
+2. Run the "git commit" command on the terminal and add a message to help indentifing what this commit is about.
+3. Run the "git push" command on the terminal to upload local repository content to a remote repository. Note that any new commits to the main branch will automatically update the site.
 
 ## Credits
 
@@ -207,16 +224,20 @@ Then follow these steps:
 
 In addition to the knowledge acquired in the [Professional Academy Diploma in Full Stack Software Development](https://www.ucd.ie/professionalacademy/findyourcourse/professional_diploma_in_software_development/) by [University College Dublin](https://www.ucd.ie/) and [Code Institute](https://codeinstitute.net/ie/), I also used the following sources to deal with specific points of this project:
 
-- CSS tutorials at [W3School](https://www.w3schools.com/howto/default.asp)
 - Picking a colour scheme: [Tutorial by Kevin Powell](https://www.youtube.com/watch?v=mq8LYj6kRyE)
+- CSS tutorials at [W3School](https://www.w3schools.com/howto/default.asp)
 - Responsive Design: [Tutorial by Kevin Powell - 1](https://www.youtube.com/watch?v=VQraviuwbzU) and [Tutorial by Kevin Powell - 2](https://www.youtube.com/watch?v=2KL-z9A56SQ)
 - Markdown Guide: [Basic syntax](https://www.markdownguide.org/basic-syntax/) for create the README file.
+- CSS Flexbox: [A Visual Reference](https://www.reddit.com/r/webdev/comments/usln38/a_visual_reference_of_css_flexbox/).
 
 ### Content
 
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/icons)
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/icons).
+- Images were taken from https://www.shutterstock.com/ and https://www.vivino.com/.
 
 ### Acknowledgments
+
+- This project was inspired by my own experience of building digital products for tech companies as a Product Manager / Product Owner for the previous 10 years.
 
 ## Disclaimer
 
