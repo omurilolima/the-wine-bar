@@ -183,7 +183,7 @@ Testing information can be found in separate [TESTING.md file](/documentation/te
 
 ## Deployment
 
-This project was developed using the [Gitpod IDE](https://gitpod.io/), committed to git and pushed to [GitHub](https://github.com) using the built in function within cloud9.
+This project was developed using the [Gitpod IDE](https://gitpod.io/), committed to git and pushed to [GitHub](https://github.com).
 
 To <strong>deploy this page to GitHub Pages</strong> from its [GitHub repository](https://github.com/omurilolima/the-wine-bar), the following steps were taken:
 
