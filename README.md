@@ -209,7 +209,7 @@ Then follow these steps:
 3. Log into [Gitpod](https://gitpod.com/) with your gitpod account.
 4. Navigate to the Project GitHub repository
 5. Click the green "Gitpod" button in the top right corner of the respository
-6. Threpositorygger a new gitpod workspace to be created from the code in github where you GitHubrk locally.
+6. This will trigger a new gitpod workspace to be created from the code in github where you can work locally.
 
 ### How to commit and push changes
 
